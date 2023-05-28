@@ -1,4 +1,4 @@
-# Bricks Construction hot-ncdc
+# hot-ncdc-java Oskar Pliżga
 
 ## Description
 

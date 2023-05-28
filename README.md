@@ -20,7 +20,7 @@ To run the program, you need to have Java installed on your system. You can run 
 
 ```bash
 java Bricks < plik.txt
-
+```
 ## License
 
 This project is not currently under any license.

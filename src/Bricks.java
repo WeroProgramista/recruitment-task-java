@@ -1,4 +1,3 @@
-import java.time.Instant;
 import java.util.*;
 import java.util.regex.*;
 
@@ -13,13 +12,10 @@ public class Bricks {
     private static int totalBricksInBox = 0;
 
     public static void main(String[] args) {
-        long start = Instant.now().toEpochMilli();
         Bricks bricks = new Bricks();
         processInput(bricks);
         bricks.construct();
         bricks.printRes();
-        long end = Instant.now().toEpochMilli();
-        System.out.println("Execution Time: " + (end - start) / 1000.0 + " seconds");
     }
 
     void construct() {
